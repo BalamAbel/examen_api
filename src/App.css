@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  
+}
+h2{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.card-item {
+  width: 380px;
+  height: 200px;
+  background-color: rgba(113, 117, 117, 0.204);
+ 
+  flex-direction: column;
+}
+.card-image {
+  float: left;
+  padding: 30px 0 0 20px;
+}
+.cards {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+margin-left: 520px;
+  padding: auto;
+  width: 1200px;
+  height: auto;
+}
+.container{
+  color: #fff;
+  background-color: #333
+
+  
+}
+
+
+
+
+.card-items {
+  display:flex;
+  justify-content: start;
+  align-items: start;
+}
+
+
